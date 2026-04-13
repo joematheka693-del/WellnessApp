@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#110A28"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Health and Wellness App"
+            android:textAlignment="center"
+            android:textColor="#6C1EDB"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/image1" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+        <Button
+            android:id="@+id/health_Recipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#1d4c67"
+            android:drawableLeft="@drawable/cooking"
+            android:text="Healthy Recipes"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/nutrition_advice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:backgroundTint="#443"
+            android:drawableLeft="@drawable/diet"
+            android:text="Nutrition Advice"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/meditation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#1d4c24"
+            android:drawableLeft="@drawable/yogaposition"
+            android:text="Meditation"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/hydration_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#1d43"
+            android:drawableLeft="@drawable/water1"
+            android:text="Hydration Alert"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/start_exercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#1d4c67"
+            android:drawableLeft="@drawable/weightlifting"
+            android:text="Start Exercise"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/daily_motivation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#1d4c67"
+            android:drawableLeft="@drawable/motivation1"
+            android:text="Daily Motivation"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/weekly_goals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#1d4c67"
+            android:drawableLeft="@drawable/roadmap"
+            android:text="Weekly Goals"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/check_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#1d4c67"
+            android:drawableLeft="@drawable/roadmap"
+            android:text="Check Progress"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/learn_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#1d4c67"
+            android:text="Learn More..."
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
